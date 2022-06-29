@@ -6,6 +6,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --time=8:00:00
 #SBATCH --mem-per-cpu=1700
+#SBATCH --output=tensor-%j.out
 
 module purge                          # Set up environment, e.g., clean modules environment
 module load modenv/hiera  GCC/10.2.0  CUDA/11.1.1 OpenMPI/4.0.5 PyTorch/1.9.0
