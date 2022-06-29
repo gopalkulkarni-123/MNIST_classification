@@ -11,4 +11,4 @@
 module purge                          # Set up environment, e.g., clean modules environment
 module load modenv/hiera  GCC/10.2.0  CUDA/11.1.1 OpenMPI/4.0.5 PyTorch/1.9.0
 
-srun python /home/h6/goku454c/MNIST_classification/torch_test_no_gpu.py
+srun python torch_test_no_gpu.py
